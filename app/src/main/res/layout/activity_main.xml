@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:ignore="ExtraText">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/settings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/settings"
+            android:backgroundTint="@color/black"
+            android:textStyle="bold|italic"
+            />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginBottom="220dp"
+            android:layout_marginTop="220dp"
+            android:gravity="center"
+            android:text="sos"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="100dp"
+            android:layout_gravity="center"
+            android:background="@drawable/round_button"
+            />
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Latitude : "
+                android:textSize="20sp"
+                android:textStyle="bold"
+                >
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/tv_latitude"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/latitude_display_here"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold|italic"
+                android:layout_gravity="center"
+                android:gravity="center"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Longtitude : "
+                android:textSize="20sp"
+                android:textStyle="bold"
+                >
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/tv_longtitude"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/longtitude_display_here"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold|italic"
+                android:layout_gravity="center"
+                android:gravity="center"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phone Number : "
+                android:textSize="20sp"
+                android:textStyle="bold"
+                >
+
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/show_contact"
+                android:text="Contact Number Here"
+                android:textSize="20sp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textStyle="bold|italic"
+                android:textColor="@color/black"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</FrameLayout>

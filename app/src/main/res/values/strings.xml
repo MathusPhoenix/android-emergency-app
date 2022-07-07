@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">HelpMe</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="longtitude_display_here">Longtitude Display Here</string>
+    <string name="latitude_display_here">Latitude Display Here</string>
+    <string name="settings">Settings</string>
+    <string name="contact_number">Contact Number</string>
+    <string name="enter_your_emergency_contact_number">Enter your emergency contact number</string>
+</resources>
